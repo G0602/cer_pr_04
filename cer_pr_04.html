@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="cer_pr_04.css" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
@@ -13,19 +13,57 @@
         <img id="header-img" src="https://img.freepik.com/premium-vector/smart-watch-vector-icon-isolated-transparent-background-with-watch-transparency-logo-design-stock_677591-6.jpg?w=740" alt="title-logo" />
       </div>
       <nav id="nav-bar">
-        <!-- for later -->
+       <a href="#features" class="nav-link" > Features</a>
+       <a href="#r-roll" class="nav-link">Product Intro</a>
+       <a href="#price-cont" class="nav-link">Price</a>
       </nav>
-      <h3 class="moto">Achieve Your Fitness Goals with our Smart Fitness Watch</h3>
+      
     </header>
-
     <main>
-      <form id="form">
-        <input id="email" type="email" placeholder="Enter your email here" />
+      <h2 class="moto">Achieve Your Fitness Goals with our Smart Fitness Watch</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit" >
+        <input id="email" type="email" placeholder="Enter your email here" name="email"/>
+        <input id="submit" class="buttons" type="submit" />
       </form>
+      <section id="r-roll">
+        <iframe id="video" width="300" height="200" src="https://www.youtube.com/embed/PMH54eetPSo" frameborder="0" allowfullscreen>you can't see me</iframe>
+      </section>
+      <section id="features">
+        <ul>
+         <li> <h4>Interactive Product Showcase:</h4> Include an interactive product showcase that allows users to explore the smartwatch's design, features, and functionality through a virtual demonstration.</li>
+
+<li><h4>Compatibility Information:</h4> Provide detailed information about the smartwatch's compatibility with different operating systems (such as iOS and Android) and devices, ensuring users understand if it will work seamlessly with their existing technology.</li>
+
+<li><h4>Health and Fitness Tracking:</h4> Highlight the smartwatch's health and fitness tracking capabilities, including features such as heart rate monitoring, step counting, sleep tracking, and workout tracking. Emphasize how the smartwatch can help users improve their overall well-being and achieve their fitness goals.</li>
+
+<li><h4>Customizable Watch Faces:</h4> Showcase the ability to personalize the smartwatch by offering a wide range of customizable watch faces, allowing users to choose a style that suits their preferences and reflects their personality.</li>
+        </ul>
+      </section>
+
+      <section id="price-cont">
+        <div class="price">
+          <h3>100$</h3>
+          for one
+          <button class="buttons">select</button>
+        </div>
+        <div class="price">
+          <h3>180$</h3>
+          for two
+         <button class="buttons">select</button>
+        </div>
+           
+        <div class="price">
+          <h3>250$</h3>
+          for three 
+          <button class="buttons">select</button>
+        </div>
+          
+      </section>
+
     </main>
 
     <footer>
     </footer>
-    
+
 </body>
 </html>
