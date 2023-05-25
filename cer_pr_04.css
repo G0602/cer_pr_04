@@ -5,13 +5,17 @@
 
 body{
   margin:1.2rem 2rem;
-  background-color:rgba(8,8,8,0.08);
+  background-color:rgb(216, 216, 216);
   font-family: 'Lato', sans-serif;
 }
 
 #header{
+  width:100%;
   position:fixed;
   top:0;
+  background-color:rgb(216, 216, 216);
+  z-index: +1;
+  padding-right: 2rem;
 }
 
 #img-cont{
@@ -36,6 +40,11 @@ body{
 
 .nav-link{
   color:black;
+  text-decoration: none;
+}
+
+main{
+  margin-top: 4rem;
 }
 
 .moto{
@@ -97,7 +106,7 @@ body{
   width:20%;
   height:200px;
   border:solid black 2px;
-  padding-top:80px;
+  padding-top:55px;
   text-align:center;
 }
 
@@ -121,6 +130,10 @@ body{
     padding-bottom:1rem;
   }
 
+main{
+  margin-top: 7rem;
+}
+
   #features{
   margin-left:1rem;
   margin-right:1rem;
@@ -132,10 +145,13 @@ body{
   display:flex;
   flex-direction:column;
   align-items: center;
+ 
 }
 
 .price{
   width:35%;
+  margin-bottom: 1rem;
+  padding-top: 10px;
 }
 
 }
